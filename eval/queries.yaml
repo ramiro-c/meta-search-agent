@@ -1,0 +1,20 @@
+# Conjunto pequeño de evaluación: cada query tiene URLs relevantes conocidas.
+# recall@provider = fracción de relevant_urls encontradas por ese proveedor solo.
+
+queries:
+  - id: python-async
+    query: "Python asyncio tutorial official documentation"
+    relevant_urls:
+      - https://docs.python.org/3/library/asyncio.html
+      - https://docs.python.org/3/howto/a-conceptual-overview-of-asyncio.html
+
+  - id: rust-ownership
+    query: "Rust ownership rules book"
+    relevant_urls:
+      - https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html
+      - https://doc.rust-lang.org/rust-by-example/scope/move.html
+
+  - id: http-status
+    query: "HTTP 404 status code MDN"
+    relevant_urls:
+      - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
